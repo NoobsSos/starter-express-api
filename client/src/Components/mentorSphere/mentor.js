@@ -111,7 +111,9 @@ const Mentor = () => {
           <div class="container__Mentor">
             <h1 className="title-mentorPage">Оберіть свого наставника!</h1>
             <p className="paragraph-mentorPage">
-            За допомогою зручної системи фільтрації та рекомендацій ви зможете знайти ідеального наставника, який відповідає вашим потребам та цілям. Почніть свій шлях до успіху з найкращими наставниками у вашій обраній сфері прямо зараз!{" "}
+              Skoro bude paska. Tak sho zakazuite miasko. Skoro bude paska.
+              Shynka i kovbaska. Tse kapets. Tse kapets. Tse kapets. Tse kapets.
+              Tse kapets. Tse kapets. Tse kapets. Tse kapets.{" "}
             </p>
             <div className="buttons-mentorPage">
               <button className="rating-button button-mentorPage">
@@ -129,6 +131,7 @@ const Mentor = () => {
           </div>
         </div>
       </div>
+      
       <div className="footer-mentor">
         <Footer></Footer>
       </div>

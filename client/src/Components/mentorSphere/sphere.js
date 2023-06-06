@@ -100,9 +100,11 @@ const shperePage = () => {
                 Рейтинг наставників
               </button>
               </Link>
-              <button className="sphere-button button-mentorPage">
-                Сфери навчання
-              </button>
+              <Link to="/sphere">
+                <button className="sphere-button button-mentorPage">
+                  Сфери навчання
+                </button>
+              </Link>
             </div>
             {/* <div className="mentor-list">
               <div className="mentor-item">
@@ -273,52 +275,64 @@ const shperePage = () => {
             </div> */}
             <div className="sphere-list">
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Дизайн UX/UI</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Бізнес та менеджмент</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Право</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Дикція та ораторське мистцецтво</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Фінансова грамотність</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Плавання</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Стрільба</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">Психологія</p>
-              </div>
-              <div className="sphere-item">
-                <p className="paragraph_sphere-item">SMM</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
                 <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Frontend</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Уроки вокалу</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Танці</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Італійська мова</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Backend</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
               <div className="sphere-item">
-                <p className="paragraph_sphere-item">Soft skills</p>
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
+              </div>
+              <div className="sphere-item">
+                <p className="paragraph_sphere-item">Англійська мова</p>
               </div>
             </div>
           </div>

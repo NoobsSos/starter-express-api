@@ -22,7 +22,7 @@ export const createNewLesson = async(req, res) => {
         });
 
         const lesson = await newLesson.save();
-        res.status(201).json({lesson});
+        res.status(201).json(lesson);
     } catch (err) {
         res.status(409).json({error: err.message});
     }

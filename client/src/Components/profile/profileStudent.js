@@ -115,7 +115,6 @@ const ProfileStudent = () => {
     getUser();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  getUser()
 
   const {
     firstName,

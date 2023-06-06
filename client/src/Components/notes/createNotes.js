@@ -16,6 +16,7 @@ import { useNavigate } from "react-router-dom";
 
 const initialValues = {
   userId: "",
+  title: "",
   text: "",
 }
 
@@ -62,6 +63,8 @@ const CreateNotes = () => {
       console.log(error);
     });
     console.log(formData);
+
+    navigate("/view-notes")
   };
 
   return (
@@ -123,7 +126,7 @@ const CreateNotes = () => {
                 Тема:</strong>
           </div>
           <div className="input-section">
-            <input type="text" className="input-theme" minlength="1"
+            <input type="text" name="title" onChange={handleChange} className="input-theme" minlength="1"
           maxlength="40"
             ></input>
           </div>

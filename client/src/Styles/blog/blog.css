@@ -17,6 +17,12 @@ body, .blog-page {
     flex-grow: 1;
   }
 
+  .mentor-photo .not-mentor-photo-img {
+    width: 300px;
+    height: 280px;
+    border-radius: 4% 4% 0px 0px;
+    }
+
   .blog-content .blog-title {
     font-size: 64px;
     line-height: 74px;

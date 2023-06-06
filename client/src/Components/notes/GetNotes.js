@@ -38,9 +38,9 @@ const GetNotes = () => {
   return (
           note.map(
               ({
-                  text
+                  text, title
               }) => (
-                    <GetNote text={text} />
+                    <GetNote title={title} text={text} />
               )
           )
   )

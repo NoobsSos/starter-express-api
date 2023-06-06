@@ -10,6 +10,9 @@ const NotesSchema = new mongoose.Schema({
     lastName: {
         type: String
     },
+    title: {
+        type: String
+    },
     text: {
         type: String,
         required: true

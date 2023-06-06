@@ -114,13 +114,13 @@ const ProfileMentor = () => {
     getUser();
   },[]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  //getUser();
   const {
     firstName,
     lastName,
     email,
     student,
-    picturePath
+    picturePath,
+    qualification
   } = user;
 
   const mentor = useSelector((state) => state.user);
@@ -153,7 +153,7 @@ const ProfileMentor = () => {
                 {firstName} {lastName}
               </h1>
               <h2 class="under-head-title">
-                Ментор з плавання
+                Ментор з {qualification}
               </h2>
 
             </div>
@@ -211,8 +211,7 @@ const ProfileMentor = () => {
               <ul class="left">
                 <li><strong>Напрям:</strong>
                   <ul>
-                    <li class="sub">Плавання</li>
-                    <li class="sub">Фітнес</li>
+                    <li class="sub">{qualification}</li>
                   </ul>
                 </li>
                 <li><strong>Досвід роботи:</strong>
@@ -289,21 +288,6 @@ const ProfileMentor = () => {
             </div>
             <div class="description-bio-content">
               <ul>
-                <li>
-                  Шось тут пише ляляляляя;
-                </li>
-                <li>
-                  Шось тут пише ляляляляя;
-                </li>
-                <li>
-                  Шось тут пише ляляляляя;
-                </li>
-                <li>
-                  Шось тут пише ляляляляя;
-                </li>
-                <li>
-                  Шось тут пише ляляляляя;
-                </li>
                 <li>
                   Шось тут пише ляляляляя;
                 </li>
