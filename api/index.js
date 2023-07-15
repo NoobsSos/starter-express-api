@@ -62,6 +62,9 @@ app.post("/student/photo", upload.single('picturePath'),(req, res) => {
   res.status(200).send('Файл успішно завантажений');
 });
 
+app.get('/', function() {
+  res.send("Hello world")
+})
 
 app.use("/mentor", mentorRoutes);
 app.use("/userquestion", userQuestionRoutes);
