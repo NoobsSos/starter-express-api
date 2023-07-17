@@ -1,6 +1,6 @@
 import Student from "../models/Student.js";
 import Mentor from "../models/Mentor.js";
-import Notifications from "../models/notification.js";
+import Notifications from "../models/Notification.js";
 
 export const createNewNotificationMentor = async(req, res) => {
     try {
